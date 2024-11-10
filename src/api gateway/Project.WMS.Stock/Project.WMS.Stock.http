@@ -1,0 +1,6 @@
+@Project.WMS.Stock_HostAddress = http://localhost:5012
+
+GET {{Project.WMS.Stock_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
