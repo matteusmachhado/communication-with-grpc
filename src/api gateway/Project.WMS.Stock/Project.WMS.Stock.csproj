@@ -21,7 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\building blocks\Project.WMS.WebAPI.Core\Project.WMS.WebAPI.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\..\Services\Project.WMS.Product.WebAPI\Protos\product.proto" GrpcServices="Client" />
   </ItemGroup>
 
 </Project>

@@ -12,7 +12,7 @@ namespace Project.WMS.Product.WebAPI.Services.gRPC
             _logger = logger;
         }
 
-        public override Task<ProductResponse> Get(GetProductRequest request, ServerCallContext context)
+        public override async Task<ProductResponse> Get(GetProductRequest request, ServerCallContext context)
         {
             var random = new Random();
 
@@ -21,7 +21,7 @@ namespace Project.WMS.Product.WebAPI.Services.gRPC
 
             var response = product ?? new Entities.Product("Product default", "Description default", 0.1m);
 
-            return Task.FromResult(MapProductToProductResponse(response));
+            return MapProductToProductResponse(response);
         }
 
         private ProductResponse MapProductToProductResponse(Entities.Product product)

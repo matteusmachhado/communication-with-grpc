@@ -1,4 +1,5 @@
 using Project.WMS.Product.WebAPI.Services.gRPC;
+using Project.WMS.WebAPI.Core.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddGrpc();
+builder.Services.AddApiServices(builder.Configuration);
 
 var app = builder.Build();
 
