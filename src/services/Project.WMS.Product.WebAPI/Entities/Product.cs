@@ -11,6 +11,7 @@ namespace Project.WMS.Product.WebAPI.Entities
             Name = name;
             Description = description;
             Price = price;
+            Created = DateTime.UtcNow;
         }
 
         private Product() { }
@@ -18,6 +19,7 @@ namespace Project.WMS.Product.WebAPI.Entities
         public string Name { get; private set; } = string.Empty;
         public string Description { get; private set; } = string.Empty;
         public decimal Price { get; private set; }
+        public DateTime Created { get; private set; }
         public DateTime? Disabled { get; private set; }
 
         public void Update(string name,

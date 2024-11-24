@@ -31,6 +31,7 @@ namespace Project.WMS.Product.WebAPI.Services.gRPC
                 Name = product.Name,
                 Description = product.Description,
                 Price = (double)product.Price,
+                Created = Timestamp.FromDateTime(product.Created),
                 Disabled = product.Disabled.HasValue ? Timestamp.FromDateTime(product.Disabled.Value) : null,
             };
         }

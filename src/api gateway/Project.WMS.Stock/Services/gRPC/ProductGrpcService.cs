@@ -30,6 +30,7 @@ namespace Project.WMS.Stock.Services.gRPC
                     product.Name,
                     product.Description,
                     (decimal)product.Price,
+                    product.Created.ToDateTime(),
                     product.Disabled is not null ? product.Disabled.ToDateTime() : null
                 );
         }
