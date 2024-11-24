@@ -23,9 +23,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.WMS.WebAPI.Core", "src\building blocks\Project.WMS.WebAPI.Core\Project.WMS.WebAPI.Core.csproj", "{21C9D16E-BF91-4A90-B87C-EAB9EA2953AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.WMS.Order.WebAPI", "src\services\Project.WMS.Order.WebAPI\Project.WMS.Order.WebAPI.csproj", "{D4510293-536E-4DD8-A81C-1409F7808368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.WMS.Order.WebAPI", "src\services\Project.WMS.Order.WebAPI\Project.WMS.Order.WebAPI.csproj", "{D4510293-536E-4DD8-A81C-1409F7808368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.WMS.Product.WebAPI", "src\services\Project.WMS.Product.WebAPI\Project.WMS.Product.WebAPI.csproj", "{12091C0D-6C20-4556-B6F3-A3F9ADFE7797}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.WMS.Product.WebAPI", "src\services\Project.WMS.Product.WebAPI\Project.WMS.Product.WebAPI.csproj", "{12091C0D-6C20-4556-B6F3-A3F9ADFE7797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protos", "protos", "{F528C392-C525-461A-B943-39B38FFB0EDF}"
+	ProjectSection(SolutionItems) = preProject
+		protos\product.proto = protos\product.proto
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

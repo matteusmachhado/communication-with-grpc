@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\..\Services\Project.WMS.Product.WebAPI\Protos\product.proto" GrpcServices="Client" />
+    <Protobuf Include="..\..\..\protos\product.proto" GrpcServices="Client" />
   </ItemGroup>
 
 </Project>
