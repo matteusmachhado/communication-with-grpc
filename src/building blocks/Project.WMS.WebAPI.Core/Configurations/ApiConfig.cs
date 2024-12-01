@@ -11,5 +11,17 @@ namespace Project.WMS.WebAPI.Core.Configurations
         {
             services.AddScoped<INotificationService, NotificationService>();
         }
+
+        /// <summary>
+        /// Allow self-signed certificates or ignore name errors in dev.
+        /// </summary>
+        /// <returns></returns>
+        public static HttpClientHandler AllowSelfSignedCertificate()
+        {
+            return new HttpClientHandler
+            {
+                ServerCertificateCustomValidationCallback = (httpRequestMessage, cert, cetChain, sslPolicyErrors) => true
+            };
+        }
     }
 }
