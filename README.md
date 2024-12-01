@@ -59,8 +59,7 @@ O **gRPC** é um framework moderno para comunicação entre serviços, ideal par
 
 ---
 
-Explore um exemplo prático de gRPC no repositório:  
-[**communication-with-grpc**](https://github.com/matteusmachhado/communication-with-grpc.git)
+## Exemplo prático 🚀
 
 ## 📋 Pré-requisitos
 
@@ -70,12 +69,12 @@ Explore um exemplo prático de gRPC no repositório:
 
 1. Clone este repositório:
 
-   git clone [https://github.com/matteusmachhado/webapi-with-redis.git](https://github.com/matteusmachhado/webapi-with-redis.git)
+   git clone [https://github.com/matteusmachhado/communication-with-grpc.git](https://github.com/matteusmachhado/communication-with-grpc.git)
 
 2. Navegue até o diretório do projeto:
 
 ```
-   cd [diretorio]\webapi-with-redis\docker
+   cd [diretorio]\communication-with-grpc\docker
 ```
 
 3. Execute os serviços com o Docker Compose:
@@ -92,7 +91,7 @@ Explore um exemplo prático de gRPC no repositório:
 
 4. Acesse o swagger da WebAPI (BFF)
 
-   Abra seu navegador e vá para http://localhost:5001/swagger/index.html
+   Abra seu navegador e vá para [http://localhost:5001/swagger/index.html](https://localhost:5002/swagger/index.html)
 
 ## Colaboradores
 
