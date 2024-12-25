@@ -1,5 +1,5 @@
 
-# gRPC: Comunicação Eficiente entre Serviços
+# Comunicação eficiente com gRPC
 
 O **gRPC** é um framework moderno para comunicação entre serviços, ideal para sistemas distribuídos que precisam ser rápidos e escaláveis. Ele funciona de forma mais eficiente que APIs REST tradicionais, utilizando o **Protobuf** (Protocol Buffers) para serializar dados de maneira compacta e performática.
 
